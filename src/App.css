@@ -1,1 +1,7 @@
-
+.mission_block{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid gray;
+}
