@@ -1,0 +1,14 @@
+.item {
+    margin: 5px;
+    padding: 5px;
+}
+
+.item a {
+    color: black;
+    text-decoration: none;
+}
+
+.item a[class='active'] {
+    color: #700707;
+    text-decoration: underline;
+}
