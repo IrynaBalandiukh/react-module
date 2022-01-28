@@ -8,6 +8,7 @@ const User = ({user}) => {
     return (
         <div className={css.item}>
             <NavLink to={id.toString()} state={user}>{name} {username}</NavLink>
+            <NavLink to={`${id.toString()}/albums`}><button>Albums</button></NavLink>
         </div>
     );
 };
